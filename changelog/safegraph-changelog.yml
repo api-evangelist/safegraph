@@ -1,0 +1,40 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.safegraph.com/llms.txt
+docs: https://docs.safegraph.com/changelog/
+scheme: monthly-release-notes
+current: july-2026
+notes: >-
+  SafeGraph publishes monthly, dated "Release Notes" describing dataset
+  coverage/accuracy changes (Places, Geometry, Address, Spend). Changes are
+  data-content updates (POI additions, removals, accuracy work) rather than
+  API/schema breaking changes. Recent window captured below; the live changelog
+  is the source of truth.
+entries:
+- version: july-2026
+  date: '2026-07'
+  url: https://docs.safegraph.com/changelog/july-2026-release-notes.md
+  breaking: false
+  highlights:
+  - Expanded pharmacy coverage in Spain (~22,000 new pharmacy POIs)
+  - 74 new brands across 29 countries (Chagee, Correos, 99 Speedmart, Carrefour Location)
+  - Healthcare practitioner expansions in Spain (+27k) and US (+14k)
+  - Gas station and convenience store improvements across 44k POIs
+  - Net decrease of 483,797 POIs from cleanup/accuracy/dedup work
+  - Dropped 888,215 Placekeys due to sourcing improvements
+- version: june-2026
+  date: '2026-06'
+  url: https://docs.safegraph.com/changelog/june-2026-release-notes.md
+  breaking: false
+- version: may-2026
+  date: '2026-05'
+  url: https://docs.safegraph.com/changelog/may-2026-release-notes.md
+  breaking: false
+- version: april-2026
+  date: '2026-04'
+  url: https://docs.safegraph.com/changelog/april-2026-release-notes.md
+  breaking: false
+- version: march-2026
+  date: '2026-03'
+  url: https://docs.safegraph.com/changelog/march-2026-release-notes.md
+  breaking: false

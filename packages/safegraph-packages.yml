@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/SafeGraphInc
+notes: >-
+  SafeGraph delivers data as bulk files (parquet / S3 / Snowflake / AWS Data
+  Exchange), not via a hosted REST API, so there is no first-party API SDK.
+  The first-party libraries below are data-wrangling helpers published in the
+  verified SafeGraphInc GitHub org and installed from source (not from a package
+  registry). PyPI packages named "safegraph-py"/"safegraphQL" are third-party
+  namesquats/community projects, not official, and are excluded.
+packages:
+- language: python
+  registry: github
+  name: safegraph_py
+  url: https://github.com/SafeGraphInc/safegraph_py
+  install: pip install git+https://github.com/SafeGraphInc/safegraph_py.git
+  official: true
+  description: First-party Python tools for wrangling and analyzing SafeGraph data.
+- language: r
+  registry: github
+  name: SafeGraphR
+  url: https://github.com/SafeGraphInc/SafeGraphR
+  install: remotes::install_github("SafeGraphInc/SafeGraphR")
+  official: true
+  description: First-party R package for processing and analyzing SafeGraph data.

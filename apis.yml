@@ -1,8 +1,28 @@
 aid: safegraph
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/safegraph.png
 name: SafeGraph
-description: 'SafeGraph is a company surfaced as a portfolio company of sapphire-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: data-analytics. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  SafeGraph is a geospatial data company that builds and maintains high-quality
+  Point of Interest (POI), building geometry, and geocoded address datasets used
+  for location intelligence, site selection, competitive analysis, and
+  machine-learning models. Its core products are Places (millions of POIs with
+  base, rich, and premium attributes), Geometry (building-footprint polygons),
+  Address (structured geocoded addresses across 25+ countries), and Spend
+  (transaction data). Rather than a hosted REST API, SafeGraph delivers data as
+  bulk parquet files via S3, Snowflake, AWS Data Exchange, CARTO, Databricks,
+  and ArcGIS. Surfaced originally as a Sapphire Ventures portfolio company and
+  enriched here from SafeGraph's public documentation, changelog, and packages.
 url: https://raw.githubusercontent.com/api-evangelist/safegraph/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Data Analytics
+- Location Intelligence
+- Points of Interest
+- Geospatial
+- Geocoding
+- Foot Traffic
+- Data Delivery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,33 @@ maintainers:
 common:
 - type: Website
   url: https://www.safegraph.com/
+- type: Documentation
+  url: https://docs.safegraph.com/docs/welcome
+- type: Blog
+  url: https://www.safegraph.com/blog/
+- type: Pricing
+  url: https://www.safegraph.com/pricing/
+- type: TermsOfService
+  url: https://www.safegraph.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.safegraph.com/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/SafeGraphInc
+- type: ChangeLog
+  url: https://docs.safegraph.com/changelog/
+- type: ChangeLog
+  name: SafeGraph changelog (structured)
+  url: changelog/safegraph-changelog.yml
+- type: LLMsTxt
+  url: llms/safegraph-llms.txt
+- type: Packages
+  url: packages/safegraph-packages.yml
+- type: WellKnown
+  url: well-known/safegraph-well-known.yml
+- type: DomainSecurity
+  url: security/safegraph-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

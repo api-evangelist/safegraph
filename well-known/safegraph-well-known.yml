@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: probed
+source: live probes of SafeGraph website + docs hosts
+notes: >-
+  No /.well-known/ discovery documents are published. SafeGraph delivers data
+  via bulk/parquet/S3/Snowflake/AWS Data Exchange rather than a hosted REST API,
+  so there is no api.safegraph.com host (DNS/connection failed) and no OAuth/OIDC
+  discovery surface. Absence recorded as valid data.
+hosts:
+- host: https://www.safegraph.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://docs.safegraph.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+- host: https://api.safegraph.com
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 000
+    note: host does not resolve / no listener

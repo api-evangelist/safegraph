@@ -1,0 +1,28 @@
+# SafeGraph Documentation
+
+> We build and maintain data sets to help accelerate machine learning and AI. Our focus is having great location data to better understand the physical world and how humans interact with the physical world.
+
+## Guides
+- [Places Data Schema](https://docs.safegraph.com/docs/places.md)
+- [Base Attributes](https://docs.safegraph.com/docs/places-base-attributes.md)
+- [Address Attributes](https://docs.safegraph.com/docs/address-attributes.md)
+- [Rich Attributes](https://docs.safegraph.com/docs/places-rich-attributes.md)
+- [Geometry Attributes](https://docs.safegraph.com/docs/geometry-data.md)
+- [Premium Rows](https://docs.safegraph.com/docs/premium-rows.md)
+- [Geocoded Address Schema](https://docs.safegraph.com/docs/geocoded-address-schema.md): SafeGraph's Address dataset provides geocoded addresses across 25+ countries. See our [global coverage list](https://docs.google.com/spreadsheets/d/1jHmN0xTIkQQt1J1PyRHEIrzNPMtqTsK3xxhLL-KgPM8/edit?gid=0#gid=0).
+- [Places Accuracy](https://docs.safegraph.com/docs/accuracy.md)
+- [Accuracy Metric Methodologies](https://docs.safegraph.com/docs/accuracy-metric-methodologies.md)
+- [Places Summary Statistics](https://docs.safegraph.com/docs/places-summary-statistics.md)
+- [Geometry Summary Statistics](https://docs.safegraph.com/docs/geometry-summary-statistics.md)
+- [Spend Summary Statistics](https://docs.safegraph.com/docs/spend-summary-statistics.md)
+- [Accuracy Metrics](https://docs.safegraph.com/docs/accuracy-metrics.md)
+- [Product Builder Resources 🤓](https://docs.safegraph.com/docs/product-builder-resources.md)
+- [Bulk Data Delivery](https://docs.safegraph.com/docs/bulk-data-delivery.md)
+- [Parquet Delivery for SafeGraph Data](https://docs.safegraph.com/docs/parquet-delivery-for-safegraph-data.md)
+
+## Changelog
+- [July-2026 Release Notes](https://docs.safegraph.com/changelog/july-2026-release-notes.md)
+- [June-2026 Release Notes](https://docs.safegraph.com/changelog/june-2026-release-notes.md)
+- [May-2026 Release Notes](https://docs.safegraph.com/changelog/may-2026-release-notes.md)
+- [April-2026 Release Notes](https://docs.safegraph.com/changelog/april-2026-release-notes.md)
+- [March-2026 Release Notes](https://docs.safegraph.com/changelog/march-2026-release-notes.md)
