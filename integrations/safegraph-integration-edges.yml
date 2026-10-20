@@ -1,0 +1,16 @@
+generated: '2026-10-20'
+method: none
+source:
+- https://zapier.com/apps/safegraph/integrations
+- https://n8n.io/integrations/safegraph/
+- https://composio.dev/toolkits/safegraph
+- https://monid.ai/tools/safegraph
+checked:
+- https://composio.dev/toolkits/safegraph
+- https://monid.ai/tools/safegraph
+- https://n8n.io/integrations/safegraph/
+- https://zapier.com/apps/safegraph/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

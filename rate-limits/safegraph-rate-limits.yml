@@ -1,0 +1,7 @@
+name: SafeGraph rate limits
+generated: '2026-10-20'
+method: none
+source: https://docs.safegraph.com/llms.txt
+limit_count: 0
+note: SafeGraph ships no request/response API; data is delivered as monthly bulk parquet files (S3, Snowflake, AWS Data Exchange, Databricks, CARTO, ArcGIS), so no rate limits are documented.
+limits: []

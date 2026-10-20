@@ -1,0 +1,13 @@
+name: SafeGraph documentation MCP server
+generated: '2026-10-20'
+method: probed
+source: https://docs.safegraph.com/mcp
+status: gated
+deployment:
+  mode: remote
+  endpoint: https://docs.safegraph.com/mcp
+  auth: unknown
+  verified: probed
+note: >-
+  Probed 2026-10-20: POST tools/list to https://docs.safegraph.com/mcp returned HTTP 401 with WWW-Authenticate Bearer realm="mcp" and JSON-RPC error -32001 "Authorization required" (a control path 404s). The host is SafeGraph's ReadMe docs site, so this is a documentation MCP, not a data API. /.well-known/oauth-protected-resource returned 404, so the auth scheme is unknown. No tool list is published; none is recorded.
+tools: []

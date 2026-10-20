@@ -1,0 +1,12 @@
+name: SafeGraph conventions
+generated: '2026-10-20'
+method: searched
+source: https://docs.safegraph.com/docs/bulk-data-delivery.md
+delivery: Bulk parquet file delivery (monthly, by the 7th of each month) to S3, Snowflake, AWS Data Exchange, Databricks, CARTO and ArcGIS; there is no request/response API.
+idempotency:
+  coverage: na
+  note: No write surface; SafeGraph publishes no API.
+reversibility:
+  coverage: na
+  note: Read-only data delivery; no write operations exist.
+dry_run_mode: na

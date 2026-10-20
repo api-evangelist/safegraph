@@ -1,0 +1,13 @@
+name: SafeGraph pricing
+generated: '2026-10-20'
+method: searched
+source: https://www.safegraph.com/pricing/
+audience: business-product
+pricing_basis: negotiated
+published: false
+delivery:
+  delivery: managed
+plan_count: 0
+note: >-
+  No tiers or numeric prices are published. The page states "Pay a simple annual fee based on your custom mix of rows, columns, and usage rights." and offers "Request Pricing"; custom samples are available before a paid contract.
+plans: []
