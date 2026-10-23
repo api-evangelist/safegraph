@@ -13,6 +13,8 @@ checked:
 - https://app.snowflake.com/marketplace/providers
 - https://aws.amazon.com/marketplace/search/results?FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE
 - https://marketplace.databricks.com/
+- https://docs.overturemaps.org/attribution/
+- https://overturemaps.org/about/members/
 summary: null
 marketplace_apps: []
 edges:
@@ -101,4 +103,28 @@ edges:
     identity_note: wikidata P856 safegraph.com for 'SafeGraph' (labelled identity step)
   detected_by: sweep-data-marketplaces.py
   detected: '2026-10-20'
+- partner_name: Overture Maps Foundation (members)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://overturemaps.org/about/members/
+  category: open map data consortium membership
+  partner_tier: contributor
+  contract_reference:
+    register: Overture Maps Foundation members (overturemaps.org/about/members; landscape.overturemaps.org/data/full.json)
+    standard: Overture Maps (GERS)
+    spec_file: null
+    role: overture-member
+    registered_name: SafeGraph
+    register_id: overture-maps-members--contributor--safegraph
+    matched_domain: safegraph.com
+    matched_by: domain
+    signal_note: 'participation only: membership level is partner_tier, never counted'
+    detected_by: sweep-overture-maps-members.py
+    detected: '2026-10-23'
+  detected_by: sweep-overture-maps-members.py
+  first_seen: '2026-10-23'
 templates: []
